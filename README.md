@@ -17,8 +17,8 @@ L'architecture repose sur un point d'entrée unique (Traefik) qui route le trafi
           (ClusterIP)           (ClusterIP)
                |                     |
      Deployment frontend     Deployment api
-       (2 réplicas)           (3 réplicas)
- 🛠️ Prérequis
+       (2 réplicas)           (3 réplicas
+🛠️ Prérequis
 Un cluster Kubernetes (K3s) fonctionnel avec au moins 1 nœud master et 1 nœud worker.
 
 L'Ingress Controller Traefik installé (fourni par défaut avec K3s).
