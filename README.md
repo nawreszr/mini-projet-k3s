@@ -106,4 +106,3 @@ Pour supprimer toutes les ressources du projet :
 bash
 kubectl delete namespace projet-devops
 kubectl config set-context --current --namespace=default
-(N'oubliez pas de supprimer les lignes ajoutées dans votre fichier hosts Windows).
